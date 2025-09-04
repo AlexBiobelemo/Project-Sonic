@@ -2,7 +2,7 @@
 
 This project is a high-fidelity simulation of a real-time anomaly detection system for VPN logs. It uses an unsupervised machine learning model to identify suspicious activity and provides tools for model explainability and interactive feedback, all packaged within a user-friendly Streamlit web application.
 
-## 🚀 Key Features
+##  Key Features
 
 - **Realistic Data Simulation**: Generates a dataset of VPN logs with a consistent user-to-IP mapping, ensuring data quality for model training.
 - **Unsupervised Anomaly Detection**: Employs an Isolation Forest algorithm to identify outliers in bandwidth usage, packet rates, and login failures without needing pre-labeled data.
@@ -11,7 +11,7 @@ This project is a high-fidelity simulation of a real-time anomaly detection syst
 - **Human-in-the-Loop Feedback**: Features an interactive "Model Refinement" section where users can mark false positives, re-label data, and see the dashboard update in real-time to simulate a model retraining loop.
 - **Comprehensive Test Suite**: Includes a robust suite of pytest tests to ensure the reliability and correctness of the core data processing and machine learning logic.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Backend & ML**: Python, Pandas, Scikit-learn
 - **Web Framework**: Streamlit
@@ -39,7 +39,7 @@ vpn_anomaly_project/
 └── README.md            # This file
 ```
 
-## ⚙️ Setup and Execution
+##  Setup and Execution
 
 Follow these steps to set up your environment and run the application.
 
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 Before launching the app, verify that everything is configured correctly by running the test suite from the project root directory:
 
 ```bash
-pytest -v
+pytest 
 ```
 
 You should see all 7 tests pass without any errors or warnings.
